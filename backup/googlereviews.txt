@@ -1,0 +1,11 @@
+ <!-- Google Reviews Section -->
+    <section id="google-reviews" class="google-reviews section light-background" data-google-place-id="YOUR_PLACE_ID" data-google-api-key="YOUR_GOOGLE_API_KEY">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Google Reviews</h2>
+        <p>Patients trust us for our care, comfort, and consistently positive experience.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div id="google-reviews-list" class="row gy-4"></div>
+      </div>
+    </section><!-- /Google Reviews Section -->

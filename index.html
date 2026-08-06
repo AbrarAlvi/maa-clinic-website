@@ -13,8 +13,8 @@
   <meta name="robots" content="noindex, nofollow">
 
   <!-- Favicons -->
-  <link rel="icon" href="img/favicon.png">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="icon" href="img/dental-icon.png">
+  <link rel="apple-touch-icon" href="img/dental-icon.png">
 
   <!-- Vendor CSS -->
   <link rel="stylesheet" href="css/fonts.css">
@@ -51,14 +51,14 @@
         <ul>
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Departments</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Doctors</a></li>
+          <li><a href="#find-a-doctor">Doctors</a></li>
+          <li><a href="#featured-departments">Services</a></li>
+          <li><a href="#find-a-doctor">Doctors</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Department Details</a></li>
               <li><a href="#">Service Details</a></li>
-              <li><a href="#">Appointment</a></li>
+              <li><a href="#appointment-form">Appointment</a></li>
               <li><a href="#">Testimonials</a></li>
               <li><a href="#">Frequently Asked Questions</a></li>
               <li><a href="#">Gallery</a></li>
@@ -67,7 +67,7 @@
               <li><a href="#">404</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -83,13 +83,13 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#">Appointment</a>
+      <a class="btn-getstarted" href="#appointment-form">Appointment</a>
 
     </div>
   </header>
@@ -115,7 +115,7 @@
                     <p data-aos="fade-up" data-aos-delay="250">MAA Dental brings together leading specialists under one roof — delivering painless, advanced multispecialty care with international-standard hygiene and cutting-edge laser technology.</p>
 
                     <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
-                      <a href="#" class="btn btn-primary">Book Appointment</a>
+                      <a href="#appointment-form" class="btn btn-primary">Book Appointment</a>
                       <a href="#" class="btn btn-outline">Explore Treatments</a>
                     </div>
 
@@ -199,6 +199,8 @@
       </div>
     </section><!-- /Hero Section -->
 
+    
+
     <!-- Home About Section -->
     <section id="home-about" class="home-about section">
 
@@ -246,7 +248,7 @@
 
               <div class="cta-wrapper mt-4">
                 <a href="#" class="btn btn-primary">Learn More About Us</a>
-                <a href="#" class="btn btn-outline">Meet Our Team</a>
+                <a href="#find-a-doctor" class="btn btn-outline">Meet Our Team</a>
               </div>
             </div>
           </div>
@@ -254,18 +256,21 @@
 
         <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
           <div class="col-12 text-center mb-4">
-            <h4 class="certification-title">Our Accreditations</h4>
+           <div class="container section-title" data-aos="fade-up">
+        <h2>Accreditations</h2>
+        
+      </div><!-- End Section Title -->
           </div>
           <div class="col-12">
             <div class="certifications">
               <div class="certification-item" data-aos="zoom-in" data-aos-delay="700">
-                <img src="img/clients-1.webp" alt="Certification">
+                <img src="img/acc1.png" alt="Certification">
               </div>
               <div class="certification-item" data-aos="zoom-in" data-aos-delay="800">
-                <img src="img/clients-2.webp" alt="Certification">
+                <img src="img/acc2.png" alt="Certification">
               </div>
               <div class="certification-item" data-aos="zoom-in" data-aos-delay="900">
-                <img src="img/clients-3.webp" alt="Certification">
+                <img src="img/acc3.webp" alt="Certification">
               </div>
               <div class="certification-item" data-aos="zoom-in" data-aos-delay="1000">
                 <img src="img/clients-4.webp" alt="Certification">
@@ -283,8 +288,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Our services</h2>
+        <h3>Our multispecialty team covers every aspect of dental health — from routine check-ups to complete smile transformations.</h3>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -300,8 +305,8 @@
                 <div class="department-icon">
                   <i class="fas fa-heartbeat"></i>
                 </div>
-                <h3>Cardiology</h3>
-                <p>Comprehensive cardiovascular care with advanced diagnostic techniques and treatment options for heart conditions, ensuring optimal cardiac health for all patients.</p>
+                <h3>General Dentistry</h3>
+                <p>Comprehensive oral health care for your whole family with the latest techniques.</p>
                 <a href="#" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
@@ -319,8 +324,8 @@
                 <div class="department-icon">
                   <i class="fas fa-brain"></i>
                 </div>
-                <h3>Neurology</h3>
-                <p>Expert neurological care specializing in brain and nervous system disorders, providing cutting-edge treatments and compassionate support for neurological conditions.</p>
+                <h3>Cosmetic Dentistry</h3>
+                <p>Transform your smile with advanced cosmetic procedures tailored just for you.</p>
                 <a href="#" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
@@ -338,8 +343,8 @@
                 <div class="department-icon">
                   <i class="fas fa-bone"></i>
                 </div>
-                <h3>Orthopedics</h3>
-                <p>Advanced musculoskeletal care focusing on bones, joints, and muscles with innovative surgical and non-surgical treatment approaches for mobility restoration.</p>
+                <h3>Teeth Straightening</h3>
+                <p>Achieve your perfect smile with discreet, modern alignment solutions.</p>
                 <a href="#" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
@@ -357,7 +362,7 @@
                 <div class="department-icon">
                   <i class="fas fa-baby"></i>
                 </div>
-                <h3>Pediatrics</h3>
+                <h3>Children's Dentistry</h3>
                 <p>Specialized healthcare for children from infancy through adolescence, offering comprehensive medical care in a child-friendly environment with experienced pediatric specialists.</p>
                 <a href="#" class="btn-learn-more">
                   <span>Learn More</span>
@@ -409,121 +414,22 @@
 
       </div>
 
-    </section><!-- /Featured Departments Section -->
+    </section>
+    
+    <!-- /Featured Departments Section -->
 
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-heartbeat"></i>
-              </div>
-              <div class="service-content">
-                <h3>Cardiology Excellence</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>Advanced Heart Surgery</li>
-                  <li><i class="fas fa-check-circle"></i>24/7 Emergency Care</li>
-                  <li><i class="fas fa-check-circle"></i>Preventive Screenings</li>
-                </ul>
-                <a href="#" class="service-btn">
-                  Learn More
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-brain"></i>
-              </div>
-              <div class="service-content">
-                <h3>Neurology &amp; Brain Health</h3>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>Brain Imaging &amp; Diagnostics</li>
-                  <li><i class="fas fa-check-circle"></i>Stroke Treatment Center</li>
-                  <li><i class="fas fa-check-circle"></i>Neurological Rehabilitation</li>
-                </ul>
-                <a href="#" class="service-btn">
-                  Learn More
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-bone"></i>
-              </div>
-              <div class="service-content">
-                <h3>Orthopedic Surgery</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>Joint Replacement Surgery</li>
-                  <li><i class="fas fa-check-circle"></i>Sports Medicine</li>
-                  <li><i class="fas fa-check-circle"></i>Minimally Invasive Procedures</li>
-                </ul>
-                <a href="#" class="service-btn">
-                  Learn More
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-ambulance"></i>
-              </div>
-              <div class="service-content">
-                <h3>Emergency &amp; Trauma Care</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>24/7 Emergency Department</li>
-                  <li><i class="fas fa-check-circle"></i>Level 1 Trauma Center</li>
-                  <li><i class="fas fa-check-circle"></i>Critical Care Units</li>
-                </ul>
-                <a href="#" class="service-btn">
-                  Learn More
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section -->
+   
 
     <!-- Find A Doctor Section -->
     <section id="find-a-doctor" class="find-a-doctor section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Find A Doctor</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Meet Your Doctor & Expert Team</h2>
+        <p>Our specialists bring decades of combined expertise in every dental discipline — all under one premium roof.</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-12">
@@ -555,17 +461,17 @@
               </form>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="row" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
-                <img src="img/logo.png" alt="Dr. Sarah Mitchell" class="img-fluid">
+                <img src="img/staff-1.webp" alt="Dr. Sarah Mitchell" class="img-fluid">
                 <div class="availability-badge online">Available</div>
               </div>
               <div class="doctor-info">
-                <h5>Dr. Sarah Mitchell</h5>
+                <h5>Dr. XXXXX</h5>
                 <p class="specialty">Cardiology</p>
                 <p class="experience">15+ years experience</p>
                 <div class="rating">
@@ -578,7 +484,7 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
@@ -587,11 +493,11 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
-                <img src="img/logo.png" alt="Dr. Michael Rodriguez" class="img-fluid">
+                <img src="img/staff-3.webp" alt="Dr. Michael Rodriguez" class="img-fluid">
                 <div class="availability-badge busy">In Surgery</div>
               </div>
               <div class="doctor-info">
-                <h5>Dr. Michael Rodriguez</h5>
+                <h5>Dr. AAAAAA</h5>
                 <p class="specialty">Neurology</p>
                 <p class="experience">12+ years experience</p>
                 <div class="rating">
@@ -604,7 +510,7 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
@@ -613,11 +519,11 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
-                <img src="img/logo.png" alt="Dr. Emily Chen" class="img-fluid">
+                <img src="img/staff-5.webp" alt="Dr. Emily Chen" class="img-fluid">
                 <div class="availability-badge online">Available</div>
               </div>
               <div class="doctor-info">
-                <h5>Dr. Emily Chen</h5>
+                <h5>Dr. TTTTT</h5>
                 <p class="specialty">Pediatrics</p>
                 <p class="experience">8+ years experience</p>
                 <div class="rating">
@@ -630,13 +536,13 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
           </div><!-- End Doctor Card -->
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <!-- <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
                 <img src="img/logo.png" alt="Dr. James Thompson" class="img-fluid">
@@ -656,12 +562,14 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
-
+          </div> -->
+          
+          <!-- End Doctor Card -->
+<!-- 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
@@ -682,12 +590,14 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
-
+          </div> -->
+          
+          <!-- End Doctor Card -->
+<!-- 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
@@ -708,11 +618,14 @@
                 </div>
                 <div class="appointment-actions">
                   <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+                  <a href="#appointment-form" class="btn btn-primary btn-sm">Book Appointment</a>
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div> -->
+          
+          
+          <!-- End Doctor Card -->
 
         </div>
 
@@ -721,6 +634,61 @@
     </section>
     
     <!-- /Find A Doctor Section -->
+
+
+    <!-- Google Reviews Section -->
+    <section id="google-reviews" class="google-reviews section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Google Reviews</h2>
+        <p>Patients trust us for our care, comfort, and consistently positive experience.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>“Professional, gentle, and incredibly thoughtful care. The whole team made my visit comfortable and stress-free.”</p>
+              <h5>Sarah P.</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p>“Amazing clinic with modern facilities and an excellent dentist. I would highly recommend them.”</p>
+              <h5>Michael R.</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>“Clean, welcoming, and very professional. The treatment was precise and the staff were kind.”</p>
+              <h5>Priya D.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Google Reviews Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
@@ -733,8 +701,8 @@
             <p data-aos="fade-up" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
             <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-              <a href="#" class="btn-primary">Book Appointment</a>
-              <a href="#" class="btn-secondary">Find a Doctor</a>
+              <a href="#appointment-form" class="btn-primary">Book Appointment</a>
+              <a href="#find-a-doctor" class="btn-secondary">Find a Doctor</a>
             </div>
           </div>
         </div>
@@ -762,7 +730,7 @@
               </div>
               <h5>Easy Online Booking</h5>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <a href="#" class="feature-link">
+              <a href="#appointment-form" class="feature-link">
                 <span>Book Now</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -776,7 +744,7 @@
               </div>
               <h5>Expert Medical Team</h5>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-              <a href="#" class="feature-link">
+              <a href="#find-a-doctor" class="feature-link">
                 <span>Meet Our Doctors</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -785,7 +753,7 @@
 
         </div>
 
-        <div class="emergency-alert" data-aos="zoom-in" data-aos-delay="500">
+        <!-- <div class="emergency-alert" data-aos="zoom-in" data-aos-delay="500">
           <div class="row align-items-center">
             <div class="col-lg-8">
               <div class="emergency-content">
@@ -801,15 +769,77 @@
             <div class="col-lg-4 text-end">
               <a href="tel:911" class="emergency-btn">
                 <i class="bi bi-telephone-fill"></i>
-                Call (555) 123-4567
+                Call 99999
               </a>
             </div>
           </div>
         </div>
 
-      </div>
+      </div> -->
 
     </section><!-- /Call To Action Section -->
+    <!-- Appointment Form Section -->
+    <section id="appointment-form" class="appointment-form section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Book an Appointment</h2>
+        <p>Share your details and we will help you arrange a visit with our dental specialists.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="appointment-card">
+              <form action="https://usebasin.com/f/a0d912b822a8" method="POST" data-basin-captcha="recaptcha" novalidate>
+                <h4 class="card-title mb-3">Book a dentist appointment</h4>
+
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required>
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="(555) 555-5555" required>
+                  </div>
+                </div>
+
+                <div class="row g-3 mt-2">
+                  <div class="col-md-6">
+                    <label for="date" class="form-label">Preferred date</label>
+                    <input type="date" class="form-control" id="date" name="preferred_date">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="time" class="form-label">Preferred time</label>
+                    <input type="time" class="form-control" id="time" name="preferred_time">
+                  </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label for="reason" class="form-label">Reason for visit / Notes</label>
+                  <textarea class="form-control" id="reason" name="reason" rows="4" placeholder="Brief description (e.g. cleaning, toothache)"></textarea>
+                </div>
+
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" value="yes" id="new_patient" name="new_patient">
+                  <label class="form-check-label" for="new_patient">I am a new patient</label>
+                </div>
+
+                <div class="mb-3" id="basin-recaptcha-placeholder"></div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary">Request appointment</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Appointment Form Section -->
 
     <!-- Emergency Info Section -->
     <section id="emergency-info" class="emergency-info section">
@@ -943,7 +973,7 @@
                   </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                  <a href="#" class="action-link">
+                  <a href="#appointment-form" class="action-link">
                     <i class="bi bi-calendar-check"></i>
                     <span>Book Appointment</span>
                   </a>
@@ -1001,7 +1031,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="#" class="logo d-flex align-items-center">
-            <span class="sitename">MAA Clinic</span>
+            <span class="sitename">MAA Multispeciality</span>
           </a>
           <div class="footer-contact pt-3">
             <p>A108 Adam Street</p>
@@ -1071,23 +1101,28 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="#">BootstrapMade</a>
+        Designed by <a href="#">AB</a>
       </div>
     </div>
 
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Facebook Chat Float -->
-  <a href="https://www.facebook.com/messages/t/yourpage" target="_blank" rel="noreferrer noopener" class="facebook-float d-flex align-items-center justify-content-center" aria-label="Chat on Facebook">
+  <a href="https://www.facebook.com/maadentalclinicjorhat" target="_blank" rel="noreferrer noopener" class="facebook-float d-flex align-items-center justify-content-center" aria-label="Chat on Facebook">
     <i class="bi bi-facebook"></i>
   </a>
 
   <!-- WhatsApp Chat Float -->
-  <a href="https://wa.me/919876543210?text=Hi%20there%2C%20I%20need%20help%20with%20dental%20services" target="_blank" rel="noreferrer noopener" class="whatsapp-float d-flex align-items-center justify-content-center" aria-label="Chat on WhatsApp">
+  <a href="https://wa.me/917578091910?text=Hi%20there%2C%20I%20need%20help%20with%20dental%20services" target="_blank" rel="noreferrer noopener" class="whatsapp-float d-flex align-items-center justify-content-center" aria-label="Chat on WhatsApp">
     <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Call Float -->
+  <a href="tel:+917578091910" class="call-float d-flex align-items-center justify-content-center" aria-label="Call us">
+    <i class="bi bi-telephone-fill"></i>
   </a>
 
   <!-- Preloader -->
@@ -1117,6 +1152,7 @@
   <script src="vendor/imagesloaded.pkgd.min.js"></script>
   <script src="vendor/isotope.pkgd.min.js"></script>
   <script src="vendor/glightbox.min.js"></script>
+  <script src="https://usebasin.com/basin.js"></script>
 
   <!-- Main JS File -->
   <script src="js/main.js"></script>

@@ -705,7 +705,7 @@ h6 {
 .whatsapp-float {
   position: fixed;
   right: 14px;
-  bottom: 40px;
+  bottom: 20px;
   z-index: 99999;
   width: 50px;
   height: 50px;
@@ -723,7 +723,8 @@ h6 {
 }
 
 .whatsapp-float:hover,
-.facebook-float:hover {
+.facebook-float:hover,
+.call-float:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.22);
   opacity: 0.95;
@@ -732,7 +733,7 @@ h6 {
 .facebook-float {
   position: fixed;
   right: 75px;
-  bottom: 40px;
+  bottom: 20px;
   z-index: 99999;
   width: 50px;
   height: 50px;
@@ -745,6 +746,26 @@ h6 {
 }
 
 .facebook-float i {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.call-float {
+  position: fixed;
+  right: 135px;
+  bottom: 20px;
+  z-index: 99999;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0d6efd;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.call-float i {
   font-size: 24px;
   line-height: 1;
 }
@@ -897,6 +918,92 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Appointment Form Section
+--------------------------------------------------------------*/
+.appointment-form .appointment-card {
+  background: var(--surface-color);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.appointment-form .card-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 1.25rem;
+}
+
+.appointment-form .form-label {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.appointment-form .form-control,
+.appointment-form textarea,
+.appointment-form .form-select {
+  padding: 0.8rem 1rem;
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.appointment-form .form-control:focus,
+.appointment-form textarea:focus,
+.appointment-form .form-select:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--accent-color), transparent 85%);
+}
+
+.appointment-form .form-check-label {
+  color: var(--default-color);
+}
+
+.appointment-form .btn-primary {
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  transition: all 0.3s ease;
+}
+
+.appointment-form .btn-primary:hover {
+  background: color-mix(in srgb, var(--accent-color), black 15%);
+  transform: translateY(-2px);
+}
+
+/*--------------------------------------------------------------
+# Google Reviews Section
+--------------------------------------------------------------*/
+.google-reviews .review-card {
+  background: var(--surface-color);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
+  height: 100%;
+}
+
+.google-reviews .review-stars {
+  color: #f4b400;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.google-reviews .review-card p {
+  margin-bottom: 1rem;
+  color: var(--default-color);
+}
+
+.google-reviews .review-card h5 {
+  margin-bottom: 0;
+  color: var(--heading-color);
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
