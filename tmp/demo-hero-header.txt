@@ -1,0 +1,38 @@
+.header {
+.header .header-container {
+.header .logo {
+.header .logo img {
+.header .logo svg {
+.header .logo h1 {
+.header .btn-getstarted,
+.header .btn-getstarted:focus {
+.header .btn-getstarted:hover,
+.header .btn-getstarted:focus:hover {
+.hero {
+.hero .hero-wrapper {
+.hero .hero-image {
+.hero .hero-image::after {
+.hero .hero-image img {
+.hero .hero-content {
+.hero .hero-content .content-box {
+.hero .hero-content .content-box .badge-accent {
+.hero .hero-content .content-box h1 {
+.hero .hero-content .content-box p {
+.hero .hero-content .content-box .cta-group {
+.hero .hero-content .content-box .cta-group .btn {
+.hero .hero-content .content-box .cta-group .btn.btn-primary {
+.hero .hero-content .content-box .cta-group .btn.btn-primary:hover {
+.hero .hero-content .content-box .cta-group .btn.btn-outline {
+.hero .hero-content .content-box .cta-group .btn.btn-outline:hover {
+.hero .hero-content .content-box .info-badges {
+.hero .hero-content .content-box .info-badges .badge-item {
+.hero .hero-content .content-box .info-badges .badge-item i {
+.hero .hero-content .content-box .info-badges .badge-item .badge-content {
+.hero .hero-content .content-box .info-badges .badge-item .badge-content span {
+.hero .hero-content .content-box .info-badges .badge-item .badge-content strong {
+.hero .features-wrapper {
+.hero .features-wrapper .feature-item {
+.hero .features-wrapper .feature-item .feature-icon {
+.hero .features-wrapper .feature-item .feature-icon i {
+.hero .features-wrapper .feature-item .feature-text h3 {
+.hero .features-wrapper .feature-item .feature-text p {
