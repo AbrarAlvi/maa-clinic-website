@@ -1,0 +1,30 @@
+/* Local visual overrides to better match the demo when served offline */
+
+/* Ensure fixed header doesn't cover content */
+body{ padding-top:76px; }
+
+/* Demo background disabled — hero image will be used instead */
+
+
+/* Header visual polish */
+.header-container, .site-header{ background: rgba(241,243,238,0.95); }
+
+/* Hero image scaling - defer to main.css for full-bleed cover */
+.hero-image img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+/* Tweak overlay and image position to better match demo appearance */
+.hero .hero-image::after{
+	/* lighter, more transparent overlay */
+	background: linear-gradient(135deg, rgba(2,20,24,0.18) 0%, rgba(2,20,24,0.28) 100%) !important;
+	z-index:2;
+}
+.hero .hero-image img{ object-position: left center; }
+
+/* Hide any leftover preview toolbar */
+#preview, .preview-devices, .navigate { display:none !important; }
+
+/* Minor spacing tweaks */
+.main{ margin-top:0; }
+
+/* Ensure footer legibility */
+.site-footer{ background:var(--deep); }
