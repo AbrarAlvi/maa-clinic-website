@@ -1,0 +1,129 @@
+ <!-- Emergency Info Section -->
+    <section id="emergency-info" class="emergency-info section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Emergency Info</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+
+            <!-- Emergency Alert Banner -->
+            <div class="emergency-alert" data-aos="zoom-in" data-aos-delay="100">
+              <div class="alert-icon">
+                <i class="bi bi-exclamation-triangle-fill"></i>
+              </div>
+              <div class="alert-content">
+                <h3>Medical Emergency?</h3>
+                <p>If you are experiencing a life-threatening emergency, call 911 immediately or go to your nearest emergency room.</p>
+              </div>
+              <div class="alert-action">
+                <a href="tel:911" class="btn btn-emergency">
+                  <i class="bi bi-telephone-fill"></i>
+                  Call 911
+                </a>
+              </div>
+            </div><!-- End Emergency Alert -->
+
+            <!-- Emergency Contact Grid -->
+            <!-- <div class="row emergency-contacts" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-md-6 mb-4">
+                <div class="contact-card urgent">
+                  <div class="card-icon">
+                    <i class="bi bi-hospital"></i>
+                  </div>
+                  <div class="card-content">
+                    <h4>Emergency Room</h4>
+                    <p class="contact-info">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </p>
+                    <p class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      1245 Healthcare Blvd, Medical City, CA 90210
+                    </p>
+                    <p class="hours">Open 24/7</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="tel:+15551234567" class="btn btn-contact">Call Now</a>
+                  </div>
+                </div>
+              </div> -->
+              
+              
+              <!-- End Emergency Room Card -->
+
+              <!-- <div class="col-md-6 mb-4">
+                <div class="contact-card">
+                  <div class="card-icon">
+                    <i class="bi bi-clock"></i>
+                  </div>
+                  <div class="card-content">
+                    <h4>Urgent Care</h4>
+                    <p class="contact-info">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 987-6543</span>
+                    </p>
+                    <p class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      892 Wellness Ave, Health District, CA 90211
+                    </p>
+                    <p class="hours">Mon-Sun: 7:00 AM - 10:00 PM</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="tel:+15559876543" class="btn btn-contact">Call Now</a>
+                  </div>
+                </div>
+              </div> -->
+              
+              <!-- End Urgent Care Card -->
+
+              <!-- <div class="col-md-6 mb-4">
+                <div class="contact-card">
+                  <div class="card-icon">
+                    <i class="bi bi-headset"></i>
+                  </div>
+                  <div class="card-content">
+                    <h4>Nurse Helpline</h4>
+                    <p class="contact-info">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 456-7890</span>
+                    </p>
+                    <p class="description">24/7 medical advice and guidance</p>
+                    <p class="hours">Available 24/7</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="tel:+15554567890" class="btn btn-contact">Call Now</a>
+                  </div>
+                </div>
+              </div> -->
+              
+              <!-- End Nurse Helpline Card -->
+
+              <!-- <div class="col-md-6 mb-4">
+                <div class="contact-card">
+                  <div class="card-icon">
+                    <i class="bi bi-heart-pulse"></i>
+                  </div>
+                  <div class="card-content">
+                    <h4>Poison Control</h4>
+                    <p class="contact-info">
+                      <i class="bi bi-telephone"></i>
+                      <span>1-800-222-1222</span>
+                    </p>
+                    <p class="description">National poison control hotline</p>
+                    <p class="hours">Available 24/7</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="tel:18002221222" class="btn btn-contact">Call Now</a>
+                  </div>
+                </div>
+              </div> -->
+              
+              <!-- End Poison Control Card -->
+
+            </div><!-- End Emergency Contacts -->
